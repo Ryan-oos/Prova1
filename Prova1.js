@@ -24,9 +24,9 @@ while (true) {
     cinema[linha][coluna] === 'L'
   ) {
     cinema[linha][coluna] = 'X';
-    console.log("Cadeira comprada com sucesso!");
+    console.log("Cadeira comprada com sucesso");
   } else {
-    console.log("Cadeira inválida ou já ocupada.");
+    console.log("Cadeira invalida ou ja ocupada.");
   }
 
   readline.question("Pressione ENTER para continuar...");
